@@ -29,13 +29,17 @@ jobs:
       - name: get lib dir name
         id: get_lib_dir_name
         run: |
+          ls .
+          pwd
           LIB_DIR_NAME=$(python arduino_lib_parser/get_lib_dir_name.py)
           echo "lib_dir_name=${LIB_DIR_NAME}"
           echo "lib_dir_name=${LIB_DIR_NAME}" >> "$GITHUB_OUTPUT"
       - name: get examples
         id: get_examples
         run: |
-          EXAMPLES=$(python arduino_lib_parser/get_examples.py)
+          ls .
+          pwd
+          EXAMPLES=$(python arduino_lib_parser/get_examples.py ${{ github.repository }})
           echo "examples=${EXAMPLES}"
           echo "examples=${EXAMPLES}" >> "$GITHUB_OUTPUT"
 
