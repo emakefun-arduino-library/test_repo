@@ -15,8 +15,13 @@ jobs:
       examples: ${{ steps.get_examples.outputs.examples}}
 
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Checkout Arduino Lib Parser
+        uses: actions/checkout@v4
+        with:
+          repository: emakefun-arduino-library/arduino_lib_parser
+          path: arduino_lib_parser
       - name: setup python
         uses: actions/setup-python@v5
         with:
