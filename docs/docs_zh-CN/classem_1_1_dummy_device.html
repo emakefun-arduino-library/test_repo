@@ -99,7 +99,6 @@ $(function(){initNavTree('classem_1_1_dummy_device.html',''); initResizable(true
   <div class="summary">
 <a href="#pub-types">Public 类型</a> &#124;
 <a href="#pub-methods">Public 成员函数</a> &#124;
-<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
 <a href="#pub-static-attribs">静态 Public 属性</a> &#124;
 <a href="classem_1_1_dummy_device-members.html">所有成员列表</a>  </div>
   <div class="headertitle"><div class="title">em::DummyDevice类 参考</div></div>
@@ -145,12 +144,6 @@ Public 成员函数</h2></td></tr>
 <tr class="memitem:a3ce815e3634802bcedf003dc4a46497a" id="r_a3ce815e3634802bcedf003dc4a46497a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8d63fb3cbaddb79589c3bd6c134c7809">ErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ce815e3634802bcedf003dc4a46497a">Read</a> (const uint8_t *buffer, const uint32_t expected_length, uint32_t *const actual_length)</td></tr>
 <tr class="memdesc:a3ce815e3634802bcedf003dc4a46497a"><td class="mdescLeft">&#160;</td><td class="mdescRight">从设备读取数据  <br /></td></tr>
 <tr class="separator:a3ce815e3634802bcedf003dc4a46497a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-静态 Public 成员函数</h2></td></tr>
-<tr class="memitem:a2d672a6bbb776c2df5f040552c30dc05" id="r_a2d672a6bbb776c2df5f040552c30dc05"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d672a6bbb776c2df5f040552c30dc05">Version</a> ()</td></tr>
-<tr class="memdesc:a2d672a6bbb776c2df5f040552c30dc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取版本号字符串。  <br /></td></tr>
-<tr class="separator:a2d672a6bbb776c2df5f040552c30dc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 静态 Public 属性</h2></td></tr>
@@ -272,7 +265,7 @@ Public 成员函数</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00162">162</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00148">148</a> 行定义.</p>
 
 </div>
 </div>
@@ -294,8 +287,6 @@ Public 成员函数</h2></td></tr>
 
 <p>初始化函数，对设备进行初始化 </p>
 <dl class="section return"><dt>返回</dt><dd>返回值请参考 <a class="el" href="#a8d63fb3cbaddb79589c3bd6c134c7809">ErrorCode</a> 。 </dd></dl>
-<dl class="section examples"><dt>示例</dt><dd><a class="el" href="read_from_device_8ino-example.html#a2">read_from_device.ino</a> , 以及 <a class="el" href="write_to_device_8ino-example.html#a2">write_to_device.ino</a>.</dd>
-</dl>
 
 <p class="definition">在文件 <a class="el" href="dummy__device_8cpp_source.html">dummy_device.cpp</a> 第 <a class="el" href="dummy__device_8cpp_source.html#l00013">13</a> 行定义.</p>
 
@@ -335,42 +326,8 @@ Public 成员函数</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>返回值请参考 <a class="el" href="#a8d63fb3cbaddb79589c3bd6c134c7809">ErrorCode</a> 。 </dd></dl>
-<dl class="section examples"><dt>示例</dt><dd><a class="el" href="read_from_device_8ino-example.html#a4">read_from_device.ino</a>.</dd>
-</dl>
 
 <p class="definition">在文件 <a class="el" href="dummy__device_8cpp_source.html">dummy_device.cpp</a> 第 <a class="el" href="dummy__device_8cpp_source.html#l00024">24</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a2d672a6bbb776c2df5f040552c30dc05" name="a2d672a6bbb776c2df5f040552c30dc05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d672a6bbb776c2df5f040552c30dc05">&#9670;&#160;</a></span>Version()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static String em::DummyDevice::Version </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>获取版本号字符串。 </p>
-<dl class="section return"><dt>返回</dt><dd>版本号字符串，格式为 major.minor.patch。 </dd></dl>
-<dl class="section examples"><dt>示例</dt><dd><a class="el" href="read_from_device_8ino-example.html#a1">read_from_device.ino</a> , 以及 <a class="el" href="write_to_device_8ino-example.html#a1">write_to_device.ino</a>.</dd>
-</dl>
-
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00134">134</a> 行定义.</p>
 
 </div>
 </div>
@@ -402,8 +359,6 @@ Public 成员函数</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>返回值请参考 <a class="el" href="#a8d63fb3cbaddb79589c3bd6c134c7809">ErrorCode</a> 。 </dd></dl>
-<dl class="section examples"><dt>示例</dt><dd><a class="el" href="write_to_device_8ino-example.html#a4">write_to_device.ino</a>.</dd>
-</dl>
 
 <p class="definition">在文件 <a class="el" href="dummy__device_8cpp_source.html">dummy_device.cpp</a> 第 <a class="el" href="dummy__device_8cpp_source.html#l00018">18</a> 行定义.</p>
 

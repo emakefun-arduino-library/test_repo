@@ -13,13 +13,15 @@
  * Read data from the device.
  */
 #include "dummy_device.h"
+#include "dummy_device_lib.h"
 
-static em::DummyDevice g_dummy_device;
-
+namespace {
+em::DummyDevice g_dummy_device;
+}
 void setup() {
   Serial.begin(115200);
   Serial.println("setup");
-  Serial.println(String("dummy device lib version: ") + em::DummyDevice::Version());
+  Serial.println(String("dummy device lib version: ") + em::dummy_device_lib::Version());
 
   Wire.begin();
 
