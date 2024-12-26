@@ -17,21 +17,21 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-      - name: setup python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.8
       - name: Checkout tools repo
         uses: actions/checkout@v4
         with:
           repository: emakefun-arduino-library/arduino_lib_parser
           path: arduino_lib_parser
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
       - name: get lib dir name
         id: get_lib_dir_name
         run: |
           ls .
           pwd
-          LIB_DIR_NAME=$(python arduino_lib_parser/get_lib_dir_name.py)
+          LIB_DIR_NAME=$(python arduino_lib_parser/get_lib_dir_name.py .)
           echo "lib_dir_name=${LIB_DIR_NAME}"
           echo "lib_dir_name=${LIB_DIR_NAME}" >> "$GITHUB_OUTPUT"
       - name: get examples
@@ -39,7 +39,7 @@ jobs:
         run: |
           ls .
           pwd
-          EXAMPLES=$(python arduino_lib_parser/get_examples.py ${{ github.repository }})
+          EXAMPLES=$(python arduino_lib_parser/get_examples.py .)
           echo "examples=${EXAMPLES}"
           echo "examples=${EXAMPLES}" >> "$GITHUB_OUTPUT"
 
