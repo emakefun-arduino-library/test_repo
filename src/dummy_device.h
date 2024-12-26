@@ -123,20 +123,6 @@ class DummyDevice {
 
   /**
    * @~Chinese
-   * @brief 获取版本号字符串。
-   * @return 版本号字符串，格式为 major.minor.patch。
-   */
-  /**
-   * @~English
-   * @brief Get the version number string.
-   * @return The version number string in the format of major.minor.patch.
-   */
-  static String Version() {
-    return String(kVersionMajor) + '.' + kVersionMinor + '.' + kVersionPatch;
-  }
-
-  /**
-   * @~Chinese
    * @brief 构造函数，指定 I2C 地址和 TwoWire 对象。
    * @param i2c_address I2C 地址，默认为 @ref kDefaultI2cAddress 。
    * @param wire TwoWire 对象引用，默认为 Wire。
