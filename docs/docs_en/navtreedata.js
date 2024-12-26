@@ -31,7 +31,6 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
@@ -41,14 +40,14 @@ var NAVTREE =
     ] ],
     [ "Examples", "examples.html", "examples" ],
     [ "Downloads", "usergroup0.html", [
-      [ "Download Library: Dummy_Device_v1.0.1.zip", "../Dummy_Device_v1.0.1.zip", null ]
+      [ "Download Library: Dummy_Device_v1.0.2.zip", "../Dummy_Device_v1.0.2.zip", null ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"../Dummy_Device_v1.0.1.zip"
+"../Dummy_Device_v1.0.2.zip"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -31,7 +31,6 @@ var NAVTREE =
       [ "类成员", "functions.html", [
         [ "全部", "functions.html", null ],
         [ "函数", "functions_func.html", null ],
-        [ "变量", "functions_vars.html", null ],
         [ "枚举", "functions_enum.html", null ],
         [ "枚举值", "functions_eval.html", null ]
       ] ]
@@ -41,14 +40,14 @@ var NAVTREE =
     ] ],
     [ "示例", "examples.html", "examples" ],
     [ "下载", "usergroup0.html", [
-      [ "下载库：Dummy_Device_v1.0.1.zip", "../Dummy_Device_v1.0.1.zip", null ]
+      [ "下载库：Dummy_Device_v1.0.2.zip", "../Dummy_Device_v1.0.2.zip", null ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"../Dummy_Device_v1.0.1.zip"
+"../Dummy_Device_v1.0.2.zip"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

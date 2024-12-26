@@ -27,44 +27,6 @@ namespace em {
  */
 class DummyDevice {
  public:
-  /**
-   * @~Chinese
-   * @brief 主版本号。
-   */
-  /**
-   * @~English
-   * @brief Major version number.
-   */
-  static constexpr uint8_t kVersionMajor = 1;
-
-  /**
-   * @~Chinese
-   * @brief 次版本号。
-   */
-  /**
-   * @~English
-   * @brief Minor version number.
-   */
-  static constexpr uint8_t kVersionMinor = 0;
-
-  /**
-   * @~Chinese
-   * @brief 修订版本号。
-   */
-  /**
-   * @~English
-   * @brief Patch version number.
-   */
-  static constexpr uint8_t kVersionPatch = 0;
-
-  /**
-   * @~Chinese
-   * @brief 默认I2C地址。
-   */
-  /**
-   * @~English
-   * @brief Default I2C address.
-   */
   static constexpr uint8_t kDefaultI2cAddress = 0x10;
 
   /**

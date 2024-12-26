@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Dummy Device<span id="projectnumber">&#160;1.0.1</span>
+   <div id="projectname">Dummy Device<span id="projectnumber">&#160;1.0.2</span>
    </div>
   </td>
  </tr>
@@ -130,7 +130,7 @@ Public 类型</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:aa7deb6ce5613c9b351915143b5aa274e" id="r_aa7deb6ce5613c9b351915143b5aa274e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7deb6ce5613c9b351915143b5aa274e">DummyDevice</a> (const uint8_t i2c_address=<a class="el" href="#af5901ef9ac78b533afd4af31b48f7dd4">kDefaultI2cAddress</a>, TwoWire &amp;wire=Wire)</td></tr>
+<tr class="memitem:aa7deb6ce5613c9b351915143b5aa274e" id="r_aa7deb6ce5613c9b351915143b5aa274e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7deb6ce5613c9b351915143b5aa274e">DummyDevice</a> (const uint8_t i2c_address=kDefaultI2cAddress, TwoWire &amp;wire=Wire)</td></tr>
 <tr class="memdesc:aa7deb6ce5613c9b351915143b5aa274e"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数，指定 I2C 地址和 TwoWire 对象。  <br /></td></tr>
 <tr class="separator:aa7deb6ce5613c9b351915143b5aa274e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27d234c0443ba358762b9898d8e1e109" id="r_a27d234c0443ba358762b9898d8e1e109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27d234c0443ba358762b9898d8e1e109">DummyDevice</a> (TwoWire &amp;wire)</td></tr>
@@ -154,17 +154,7 @@ Public 成员函数</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 静态 Public 属性</h2></td></tr>
-<tr class="memitem:a0b7c82518452f135e635ad5be348510e" id="r_a0b7c82518452f135e635ad5be348510e"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b7c82518452f135e635ad5be348510e">kVersionMajor</a> = 1</td></tr>
-<tr class="memdesc:a0b7c82518452f135e635ad5be348510e"><td class="mdescLeft">&#160;</td><td class="mdescRight">主版本号。  <br /></td></tr>
-<tr class="separator:a0b7c82518452f135e635ad5be348510e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3b608f93b06d3126a8ace25c71471a7" id="r_aa3b608f93b06d3126a8ace25c71471a7"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b608f93b06d3126a8ace25c71471a7">kVersionMinor</a> = 0</td></tr>
-<tr class="memdesc:aa3b608f93b06d3126a8ace25c71471a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">次版本号。  <br /></td></tr>
-<tr class="separator:aa3b608f93b06d3126a8ace25c71471a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa8cc1f4958f043dd826e076d1a63a03" id="r_aaa8cc1f4958f043dd826e076d1a63a03"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8cc1f4958f043dd826e076d1a63a03">kVersionPatch</a> = 0</td></tr>
-<tr class="memdesc:aaa8cc1f4958f043dd826e076d1a63a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">修订版本号。  <br /></td></tr>
-<tr class="separator:aaa8cc1f4958f043dd826e076d1a63a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5901ef9ac78b533afd4af31b48f7dd4" id="r_af5901ef9ac78b533afd4af31b48f7dd4"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5901ef9ac78b533afd4af31b48f7dd4">kDefaultI2cAddress</a> = 0x10</td></tr>
-<tr class="memdesc:af5901ef9ac78b533afd4af31b48f7dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">默认I2C地址。  <br /></td></tr>
 <tr class="separator:af5901ef9ac78b533afd4af31b48f7dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
@@ -206,7 +196,7 @@ Public 成员函数</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00080">80</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00042">42</a> 行定义.</p>
 
 </div>
 </div>
@@ -223,7 +213,7 @@ Public 成员函数</h2></td></tr>
         <tr>
           <td class="memname">em::DummyDevice::DummyDevice </td>
           <td>(</td>
-          <td class="paramtype">const uint8_t</td>          <td class="paramname"><span class="paramname"><em>i2c_address</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#af5901ef9ac78b533afd4af31b48f7dd4">kDefaultI2cAddress</a></span>, </td>
+          <td class="paramtype">const uint8_t</td>          <td class="paramname"><span class="paramname"><em>i2c_address</em></span><span class="paramdefsep"> = </span><span class="paramdefval">kDefaultI2cAddress</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -241,7 +231,7 @@ Public 成员函数</h2></td></tr>
 <p>构造函数，指定 I2C 地址和 TwoWire 对象。 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i2c_address</td><td>I2C 地址，默认为 <a class="el" href="#af5901ef9ac78b533afd4af31b48f7dd4">kDefaultI2cAddress</a> 。 </td></tr>
+    <tr><td class="paramname">i2c_address</td><td>I2C 地址，默认为 kDefaultI2cAddress 。 </td></tr>
     <tr><td class="paramname">wire</td><td>TwoWire 对象引用，默认为 Wire。 </td></tr>
   </table>
   </dd>
@@ -282,7 +272,7 @@ Public 成员函数</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00200">200</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00162">162</a> 行定义.</p>
 
 </div>
 </div>
@@ -380,7 +370,7 @@ Public 成员函数</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="read_from_device_8ino-example.html#a1">read_from_device.ino</a> , 以及 <a class="el" href="write_to_device_8ino-example.html#a1">write_to_device.ino</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00172">172</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00134">134</a> 行定义.</p>
 
 </div>
 </div>
@@ -440,87 +430,7 @@ Public 成员函数</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>默认I2C地址。 </p>
-
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00068">68</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a0b7c82518452f135e635ad5be348510e" name="a0b7c82518452f135e635ad5be348510e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b7c82518452f135e635ad5be348510e">&#9670;&#160;</a></span>kVersionMajor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t em::DummyDevice::kVersionMajor = 1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>主版本号。 </p>
-
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00038">38</a> 行定义.</p>
-
-</div>
-</div>
-<a id="aa3b608f93b06d3126a8ace25c71471a7" name="aa3b608f93b06d3126a8ace25c71471a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3b608f93b06d3126a8ace25c71471a7">&#9670;&#160;</a></span>kVersionMinor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t em::DummyDevice::kVersionMinor = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>次版本号。 </p>
-
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00048">48</a> 行定义.</p>
-
-</div>
-</div>
-<a id="aaa8cc1f4958f043dd826e076d1a63a03" name="aaa8cc1f4958f043dd826e076d1a63a03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa8cc1f4958f043dd826e076d1a63a03">&#9670;&#160;</a></span>kVersionPatch</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t em::DummyDevice::kVersionPatch = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>修订版本号。 </p>
-
-<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00058">58</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="dummy__device_8h_source.html">dummy_device.h</a> 第 <a class="el" href="dummy__device_8h_source.html#l00030">30</a> 行定义.</p>
 
 </div>
 </div>
