@@ -13,3 +13,9 @@ Dummy device is a virtual device used for testing, with a default I2C address of
 ## Page
 
 <https://emakefun-arduino-library.github.io/em_dummy_device/>
+
+
+
+```doxygen - only
+这里可以放置Doxygen特定语法，如\ref some_reference等。
+因为GitHub不知道“doxygen - only”这种语言，它可能会将其当作普通代码块显示或者忽略它的语法内容。
