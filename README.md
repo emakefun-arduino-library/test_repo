@@ -6,6 +6,10 @@
 
 Dummy device is a virtual device used for testing, with a default I2C address of 0x10.
 
+/if DOXYGEN
+<A HREF="../index.html">
+\endif
+
 ## Page
 
 <https://emakefun-arduino-library.github.io/em_dummy_device/>
